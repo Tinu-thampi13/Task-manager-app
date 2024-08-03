@@ -39,30 +39,32 @@ A feature-rich task management application built with Flutter, utilizing local s
 - Dart
 - Android Studio / VS Code
 - Firebase account
+  
+## Installation
 
-### Installation
+1. Create a new Flutter project on your local device:
+   ```
+   flutter create task_management_app
+   ```
 
-1. Clone the repository:
+2. Clone the repository:
    ```
    git clone https://github.com/yourusername/task-manager-app.git
    ```
 
-2. Navigate to the project directory:
+3. Copy the `build` folder from the newly created `task_management_app` project and paste it into the cloned repository. This step is necessary because the `build` folder is not included in the cloned repository.
+
+4. Navigate to the cloned repository directory:
    ```
    cd task-manager-app
    ```
 
-3. Install dependencies:
+5. Install dependencies:
    ```
    flutter pub get
    ```
 
-4. Set up Firebase:
-   - Create a new Firebase project
-   - Add your Android and iOS apps to the Firebase project
-   - Download and add the `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) files to the respective directories
-
-5. Run the app:
+6. Run the app:
    ```
    flutter run
    ```
@@ -72,10 +74,9 @@ A feature-rich task management application built with Flutter, utilizing local s
 1. Launch the app
 2. Register a new account or log in with existing credentials
 3. Add tasks using the "+" button
-4. Edit tasks by tapping on them
-5. Delete tasks by swiping left or right
-6. Mark tasks as complete by tapping the checkbox
-7. Receive push notifications for task reminders
+4. Edit, Delete tasks by tapping on them
+5. Mark tasks as complete by tapping the checkbox
+6. Receive push notifications for task reminders
 
 ## Testing
 
